@@ -21,10 +21,13 @@ years: [2016, 2017, 2018, 2019, 2020, 2021]
 {% bibliography --query @unpublished %}
 </div>
 
-<div class="jumbotron">
-### Refereed journal articles
-{% bibliography --query @article %}
-</div>
+[//]: # (<div class="jumbotron">)
+
+[//]: # (### Refereed journal articles)
+
+[//]: # ({% bibliography --query @article %})
+
+[//]: # (</div>)
 
 <div class="jumbotron">
 ### Refereed conference proceedings

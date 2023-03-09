@@ -1,22 +1,14 @@
-- name: Dr. Richard Feynman
-  photo: headshot.jpg
-  info: Richard C. Tolman Professor, California Institute of Technology
-  email: richard@university.edu
-  github: https://github.com/
-  researchgate: https://www.researchgate.net/
-  scholar: https://scholar.google.com/citations?user=B7vSqZsAAAAJ
-  cv: cv/cv.pdf
+- name: Pouya Hamadanian
+  photo: headshot_sml.jpg
+  info: EECS PhD Student, MIT
+  email: pouyah@mit.edu
+  github: https://github.com/pouyahmdn
+  researchgate: https://www.researchgate.net/scientific-contributions/Pouya-Hamadanian-2176300893
+  scholar: https://scholar.google.com/citations?user=FY8z0UwAAAAJ&hl=en
+  cv: https://people.csail.mit.edu/pouyah/CV.pdf
   # Change the number below to the number of "educations" you have (up to 6)
   number_educ: 2
-  education1: "(1942) Ph.D. Physics, Princeton University"
-  education2: "(1939) B.S. Physics, Massachusetts Institute of Technology"
-  # education3: 
-  # education4: 
-  # education5: 
-  # education6: 
-  education1short: (1942) Ph.D. Physics, Princeton
-  education2short: (1939) B.S. Physics, MIT
-  # education3short: 
-  # education4short: 
-  # education5short: 
-  # education6short: 
+  education1: "(2021) M.S. Electrical Engineering and Computer Science, Massachusetts Institute of Technology"
+  education2: "(2019) B.S. Electrical Engineering, Sharif University of Technology"
+  education1short: (2021) M.S. EECS, MIT
+  education2short: (2019) B.S. EE, Sharif

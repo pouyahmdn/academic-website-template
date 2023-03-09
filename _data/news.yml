@@ -1,6 +1,12 @@
-- date: 1 January, 1941
-  headline: "Example news here"
+- date: 26 January, 2023
+  headline: "CausalSim was accepted to NSDI '23."
 
-- date: 1 January, 1940
-  headline: "Example news here"
+- date: 6 January, 2023
+  headline: "I am honored to receive the Neekeyfar Award."
+
+- date: 31 May, 2022
+  headline: "I am joining NRG at MSR Seattle for a research internship."
+
+- date: 22 July, 2021
+  headline: "AMS was accepted to ICCV '21."
 

@@ -29,16 +29,18 @@ pre{
 
 {% assign bibtest = false %}
 {% if entry.file %}
-{% assign bibfile = "/papers/" | append: entry.file %}
-{% for file in site.static_files %}
-  {% if file.path contains bibfile %}
-   {% assign bibtest = true %}
-  {% endif %}
-{% endfor %}
+    {% assign bibfile = entry.file %}
+    {% assign bibtest = true %}
+<!--{% for file in site.static_files %}-->
+<!--  {% if file.path contains bibfile %}-->
+<!--    {% assign bibtest = true %}-->
+<!--  {% endif %}-->
+<!--{% endfor %}-->
 {% endif %}
 
 {% if bibtest %}
-<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
+<!--<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>-->
+<a href="{{ entry.file }}" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
 {% endif %}
 
 {% if entry.doi %}

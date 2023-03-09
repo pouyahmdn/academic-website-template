@@ -73,11 +73,11 @@ permalink: /about/
 </div>
 {% endif %}
 
-{% if site.data.awards %}
+{% if site.data.honors %}
 <div class="jumbotron">
-### Awards
+### Honors & Awards
 <ul>
-{% for award in site.data.awards %}
+{% for award in site.data.honors %}
  <li> {{ award.name | replace: "-","&#8211;"}} </li>
 {% endfor %}
 </ul>
@@ -95,9 +95,11 @@ permalink: /about/
 </div>
 {% endif %}
 
+{% if site.data.funders %}
 <div class="jumbotron">
   <h4>Sponsors</h4>
   <div style='display:block; text-align:center; margin-left:auto; margin-right:auto;'>
  {% for funder in site.data.funders %}<a href="{{ funder.url }}" target="_blank"><img src='{{ site.url }}{{ site.baseurl }}/images/{{ funder.image }}' style='max-height: 80px; max-width: 200px; margin: 1%'/></a>{% endfor %}
   </div>
 </div>
+{% endif %}
