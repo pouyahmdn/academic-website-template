@@ -12,11 +12,15 @@ I am advised by [Mohammad Alizadeh](https://people.csail.mit.edu/alizadeh/), and
 </p>
 
 <p style='text-align: justify;'>
-In the summer of 2022, I completed a research internship in Microsoft Research Seattle, at the Networking Research Group (NRG) under the supervision of [Krishna Chintalapudi](https://www.microsoft.com/en-us/research/people/krchinta/).
+In the summer of 2022, I completed a research internship in Microsoft Research Seattle, at the Networking Research Group (NRG) under the supervision of [Krishna Chintalapudi](https://www.microsoft.com/en-us/research/people/krchinta/). I designed a system called Ekho, which is a synchronization schemes for cloud gaming media, and we published <a href="https://dl.acm.org/doi/10.1145/3603269.3604826">Ekho at SIGCOMM '23</a>.
+</p>
+
+<p style="text-align: justify;">
+In the summer of 2023, I completed another research internship in Microsoft Research Seattle, at the Networking Research Group (NRG) under the supervision of <a href="https://sadjad.org">Sadjad Fouladi</a> and <a href="https://www.microsoft.com/en-us/research/people/ranveer/">Ranveer Chandra</a>. I worked on the interplay of the networking domain and Large Language Models; I investigated how LLMs could be useful for debugging networking problems, and how we can design efficient inference systems for LLMs.
 </p>
 
 <p style='text-align: justify;'>
-I received a EECS M.S. degree from MIT in 2022, and a B.S. in Electrical Engineering from Sharif University of Technology, Tehran.
+I received an EECS M.S. degree from MIT in 2022, and a B.S. in Electrical Engineering from Sharif University of Technology, Tehran.
 </p>
 
 Broadly, my research interests include:
@@ -24,6 +28,7 @@ Broadly, my research interests include:
 * Safe/Non-stationary Continual Learning
 * Data-driven Simulation
 * Cloud Game Streaming Technology
+* LLM inference/training frameworks
 
 [//]: # (### Welcome!)
 

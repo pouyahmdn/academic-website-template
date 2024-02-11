@@ -22,10 +22,10 @@ pre{
 </style>
 
 
-<div class="text-justify">{{reference}}</div>
+<div class="text-justify">{{reference | replace_first: 'Pouya Hamadanian*', '<span style="color:#80bdff;"><b>Pouya Hamadanian*</b></span>' | replace_first: 'Pouya Hamadanian', '<span style="color:#80bdff;"><b>Pouya Hamadanian</b></span>'}}</div>
 
 <!-- You can use the below to make your name bold -->
-<!-- {{reference | replace_first: 'Bryngelson, S. H.', '<b>Bryngelson, S. H.</b>' | replace_first: 'Bryngelson, S.', '<b>Bryngelson, S.</b>' }}</div> -->
+<!-- {{reference | replace_first: 'Hamadanian, P.', '<b>Hamadanian, P.</b>' }}</div>-->
 
 {% assign bibtest = false %}
 {% if entry.file %}
@@ -45,7 +45,7 @@ pre{
 
 {% if entry.doi %}
 {% if entry.type == 'unpublished' %}
-<a href="{{ entry.doi | prepend: 'https://arxiv.org/abs/' }}" target="_blank"><button class="btn btn-primary btm-sm">ARXIV</button></a>
+<a href="{{ entry.doi | split: 'ARXIV.' | last | prepend: 'https://arxiv.org/abs/' }}" target="_blank"><button class="btn btn-primary btm-sm">ARXIV</button></a>
 {% else %}
 <a href="{{ entry.doi | prepend: 'http://doi.org/' }}" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
 {% endif %}

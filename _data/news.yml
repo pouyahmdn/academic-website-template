@@ -1,3 +1,18 @@
+- date: 8 September, 2023
+  headline: "Our paper on using LLMs for network incident management was accepted to HotNets '23."
+
+- date: 31 August, 2023
+  headline: "Ekho at MIT's front page! MIT News covered Ekho."
+
+- date: 31 May, 2023
+  headline: "I'm joining NRG at MSR Seattle for a research internship"
+
+- date: 17 May, 2023
+  headline: "Ekho was accepted to SIGCOMM '23"
+
+- date: 26 January, 2023
+  headline: "CausalSim won Best Paper at NSDI '23."
+
 - date: 26 January, 2023
   headline: "CausalSim was accepted to NSDI '23."
 
@@ -6,6 +21,9 @@
 
 - date: 31 May, 2022
   headline: "I am joining NRG at MSR Seattle for a research internship."
+
+- date: 5 April, 2022
+  headline: "I am presenting our work on Time-varying Reinforcement Learning in EuroMLSys '22."
 
 - date: 22 July, 2021
   headline: "AMS was accepted to ICCV '21."

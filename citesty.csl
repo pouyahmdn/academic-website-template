@@ -328,7 +328,8 @@
   <!-- APA references contain four parts: author, date, title, source -->
   <macro name="author-bib">
     <names variable="composer" delimiter=", ">
-      <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize-with=". " delimiter=", " delimiter-precedes-last="always"/>
+<!--       <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize-with=". " delimiter=", " delimiter-precedes-last="always"/> -->
+      <name delimiter=", " delimiter-precedes-last="always"/>
       <substitute>
         <names variable="author"/>
         <names variable="illustrator"/>
@@ -389,7 +390,7 @@
       </if>
       <else-if type="interview personal_communication" match="any">
         <choose>
-          <!-- These variables indicate that the letter is retrievable by the reader. 
+          <!-- These variables indicate that the letter is retrievable by the reader.
                 If not, then use the APA in-text-only personal communication format -->
           <if variable="archive container-title publisher URL" match="none">
             <group delimiter=", ">
@@ -471,7 +472,7 @@
                   </if>
                 </choose>
               </else-if>
-              <!-- Only year: article article-journal book chapter entry entry-dictionary entry-encyclopedia dataset figure graphic 
+              <!-- Only year: article article-journal book chapter entry entry-dictionary entry-encyclopedia dataset figure graphic
                    manuscript map musical_score paper-conference[published] patent report review review-book thesis -->
             </choose>
           </if>
@@ -547,7 +548,7 @@
                 <if type="interview personal_communication" match="any">
                   <choose>
                     <if variable="archive container-title publisher URL" match="none">
-                      <!-- These variables indicate that the communication is retrievable by the reader. 
+                      <!-- These variables indicate that the communication is retrievable by the reader.
                            If not, then use the in-text-only personal communication format -->
                       <date variable="issued" form="text"/>
                     </if>
@@ -1318,7 +1319,7 @@
   <macro name="reviewed-title">
     <choose>
       <if variable="reviewed-title">
-        <!-- Not possible to distinguish TV series episode from other reviewed 
+        <!-- Not possible to distinguish TV series episode from other reviewed
               works [Ex. 69] -->
         <text variable="reviewed-title" font-style="italic"/>
         <text variable="address"/>
